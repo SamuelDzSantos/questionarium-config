@@ -1,4 +1,9 @@
 spring:
+  rabbitmq:
+    host: localhost
+    password: test
+    username: test
+    port: 5672
   cloud:
     loadbalancer:
       cache:
